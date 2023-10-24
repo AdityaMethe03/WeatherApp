@@ -6,7 +6,10 @@
 }
 
 body{
-    background:#222 ;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card{
@@ -106,9 +109,15 @@ body{
     display: none;
 }
 
+/* .photoContainer{
+    width: 60%;
+    
+} */
+
+
 
 /* Media Query for 450px Screens */
-/* @media (max-width: 450px) {
+@media (max-width: 450px) {
     .card {
         max-width: 90%;
         padding: 20px 15px;
@@ -141,4 +150,4 @@ body{
     .humidity, .wind {
         font-size: 24px;
     }
-} */
+}
