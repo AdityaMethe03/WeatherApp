@@ -118,6 +118,10 @@ body{
 
 /* Media Query for 450px Screens */
 @media (max-width: 450px) {
+    body{
+        padding-bottom: 35.5vh;
+    }
+    
     .card {
         max-width: 90%;
         padding: 20px 15px;
